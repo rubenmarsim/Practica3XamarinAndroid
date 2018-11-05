@@ -39,7 +39,7 @@
 			<Button
 				android:text="CheckBox"
 				android:layout_width="match_parent"
-				android:layout_height="40.0dp"
+				android:layout_height="50.0dp"
 				android:layout_marginTop="150dp"
 				android:minWidth="25px"
 				android:minHeight="25px"
@@ -47,7 +47,7 @@
 			<Button
 				android:text="RadioButton"
 				android:layout_width="match_parent"
-				android:layout_height="40.0dp"
+				android:layout_height="50.0dp"
 				android:layout_marginTop="200dp"
 				android:minWidth="25px"
 				android:minHeight="25px"
@@ -55,7 +55,7 @@
 			<Button
 				android:text="ToggleButton"
 				android:layout_width="match_parent"
-				android:layout_height="40.0dp"
+				android:layout_height="50.0dp"
 				android:layout_marginTop="250dp"
 				android:minWidth="25px"
 				android:minHeight="25px"
@@ -63,7 +63,7 @@
 			<Button
 				android:text="Spinner"
 				android:layout_width="match_parent"
-				android:layout_height="40.0dp"
+				android:layout_height="50.0dp"
 				android:layout_marginTop="300dp"
 				android:minWidth="25px"
 				android:minHeight="25px"
@@ -71,7 +71,7 @@
 			<Button
 				android:text="DatePicker"
 				android:layout_width="match_parent"
-				android:layout_height="40.0dp"
+				android:layout_height="50.0dp"
 				android:layout_marginTop="350dp"
 				android:minWidth="25px"
 				android:minHeight="25px"
@@ -79,7 +79,7 @@
 			<Button
 				android:text="TimePicker"
 				android:layout_width="match_parent"
-				android:layout_height="40.0dp"
+				android:layout_height="50.0dp"
 				android:layout_marginTop="400dp"
 				android:minWidth="25px"
 				android:minHeight="25px"
@@ -87,7 +87,7 @@
 			<Button
 				android:text="ListView"
 				android:layout_width="match_parent"
-				android:layout_height="40.0dp"
+				android:layout_height="50.0dp"
 				android:layout_marginTop="450dp"
 				android:minWidth="25px"
 				android:minHeight="25px"
@@ -95,7 +95,7 @@
 			<Button
 				android:text="GridView"
 				android:layout_width="match_parent"
-				android:layout_height="40.0dp"
+				android:layout_height="50.0dp"
 				android:layout_marginTop="500dp"
 				android:minWidth="25px"
 				android:minHeight="25px"
@@ -103,7 +103,7 @@
 			<Button
 				android:text="WebView"
 				android:layout_width="match_parent"
-				android:layout_height="40.0dp"
+				android:layout_height="50.0dp"
 				android:layout_marginTop="550dp"
 				android:minWidth="25px"
 				android:minHeight="25px"
