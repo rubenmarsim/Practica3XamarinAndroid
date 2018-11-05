@@ -21,6 +21,9 @@ namespace Practica3Android
 
             // Create your application here
             SetContentView(Resource.Layout.ListView);
+
+            string[] countries = Resources.GetStringArray(Resource.Array.countries_array);
+            IListAdapter = new ArrayAdapter<string>(this, Resource.Layout.ListView, countries);
         }
     }
 }
