@@ -1,90 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent">
-	<TextView
-		android:text="Xamarin Android Controls Ruben Martinez"
-		android:textAppearance="?android:attr/textAppearanceSmall"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/textView2" />
-	<Button
-		android:text="Button"
-		android:layout_width="match_parent"
-		android:layout_height="40.0dp"
-		android:id="@+id/btnButton" />
-	<Button
-		android:text="Edit Text"
-		android:layout_width="match_parent"
-		android:layout_height="40.0dp"
-		android:minWidth="0px"
-		android:minHeight="0px"
-		android:id="@+id/btnEditText"
-		android:layout_marginLeft="0.0dp" />
-	<Button
-		android:text="CheckBox"
-		android:layout_width="match_parent"
-		android:layout_height="40.0dp"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:id="@+id/btnCheckBox"/>
-	<Button
-		android:text="RadioButton"
-		android:layout_width="match_parent"
-		android:layout_height="40.0dp"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:id="@+id/btnRadioButton" />
-	<Button
-		android:text="ToggleButton"
-		android:layout_width="match_parent"
-		android:layout_height="40.0dp"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:id="@+id/btnToggleButton" />
-	<Button
-		android:text="Spinner"
-		android:layout_width="match_parent"
-		android:layout_height="40.0dp"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:id="@+id/btnSpinner" />
-	<Button
-		android:text="DatePicker"
-		android:layout_width="match_parent"
-		android:layout_height="40.0dp"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:id="@+id/btnDatePicker" />
-	<Button
-		android:text="TimePicker"
-		android:layout_width="match_parent"
-		android:layout_height="40.0dp"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:id="@+id/btnTimePicker" />
-	<Button
-		android:text="ListView"
-		android:layout_width="match_parent"
-		android:layout_height="40.0dp"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:id="@+id/btnListView" />
-	<Button
-		android:text="GridView"
-		android:layout_width="match_parent"
-		android:layout_height="40.0dp"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:id="@+id/btnGridView" />
-	<Button
-		android:text="WebView"
-		android:layout_width="match_parent"
-		android:layout_height="40.0dp"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:id="@+id/btnWebView" />	
-</LinearLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+		<RelativeLayout
+			android:id="@+id/form_layout"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:minWidth="25px"
+			android:minHeight="25px">
+			<TextView
+				android:text="Xamarin Android Controls Ruben Martinez"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:id="@+id/textView2" />
+			<Button
+				android:text="Button"
+				android:layout_width="match_parent"
+				android:layout_height="50.0dp"
+				android:layout_marginTop="50dp"
+				android:id="@+id/btnButton" />
+			<Button
+				android:text="Edit Text"
+				android:layout_width="match_parent"
+				android:layout_height="50.0dp"
+				android:minWidth="0px"
+				android:minHeight="0px"
+				android:layout_marginTop="100dp"
+				android:id="@+id/btnEditText"
+				android:layout_marginLeft="0.0dp" />
+			<Button
+				android:text="CheckBox"
+				android:layout_width="match_parent"
+				android:layout_height="50.0dp"
+				android:layout_marginTop="150dp"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/btnCheckBox"/>
+			<Button
+				android:text="RadioButton"
+				android:layout_width="match_parent"
+				android:layout_height="50.0dp"
+				android:layout_marginTop="200dp"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/btnRadioButton" />
+			<Button
+				android:text="ToggleButton"
+				android:layout_width="match_parent"
+				android:layout_height="50.0dp"
+				android:layout_marginTop="250dp"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/btnToggleButton" />
+			<Button
+				android:text="Spinner"
+				android:layout_width="match_parent"
+				android:layout_height="50.0dp"
+				android:layout_marginTop="300dp"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/btnSpinner" />
+			<Button
+				android:text="DatePicker"
+				android:layout_width="match_parent"
+				android:layout_height="50.0dp"
+				android:layout_marginTop="350dp"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/btnDatePicker" />
+			<Button
+				android:text="TimePicker"
+				android:layout_width="match_parent"
+				android:layout_height="50.0dp"
+				android:layout_marginTop="400dp"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/btnTimePicker" />
+			<Button
+				android:text="ListView"
+				android:layout_width="match_parent"
+				android:layout_height="50.0dp"
+				android:layout_marginTop="450dp"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/btnListView" />
+			<Button
+				android:text="GridView"
+				android:layout_width="match_parent"
+				android:layout_height="50.0dp"
+				android:layout_marginTop="500dp"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/btnGridView" />
+			<Button
+				android:text="WebView"
+				android:layout_width="match_parent"
+				android:layout_height="50.0dp"
+				android:layout_marginTop="550dp"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/btnWebView" />
+		</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
