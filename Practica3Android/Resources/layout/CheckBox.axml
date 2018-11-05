@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<CheckBox
+		android:text="CheckBox1"
+		android:layout_width="match_parent"
+		android:layout_height="100.0dp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/checkBox1" />
+	<CheckBox
+		android:text="CheckBox2"
+		android:layout_width="match_parent"
+		android:layout_height="100.0dp"
+		android:id="@+id/checkBox2" />
+	<CheckBox
+		android:text="CheckBox3"
+		android:layout_width="match_parent"
+		android:layout_height="100.0dp"
+		android:id="@+id/checkBox3" />
+
+</LinearLayout>
