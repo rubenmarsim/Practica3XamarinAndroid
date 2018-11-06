@@ -105,6 +105,22 @@ namespace Practica3Android
 			}
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int car_array = 2131623936;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -3338,6 +3354,9 @@ namespace Practica3Android
 			
 			// aapt resource value: 0x7f09001f
 			public const int bottom_sheet_behavior = 2131296287;
+			
+			// aapt resource value: 0x7f090029
+			public const int car_prompt = 2131296297;
 			
 			// aapt resource value: 0x7f090020
 			public const int character_counter_pattern = 2131296288;

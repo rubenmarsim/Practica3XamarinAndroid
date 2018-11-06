@@ -8,6 +8,7 @@
 		android:layout_height="65.0dp"
 		android:minWidth="25px"
 		android:minHeight="25px"
+		android:prompt="@string/car_prompt"
 		android:id="@+id/spinner1" />
 
 </LinearLayout>
