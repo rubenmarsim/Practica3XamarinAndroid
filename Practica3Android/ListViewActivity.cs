@@ -15,15 +15,31 @@ namespace Practica3Android
     [Activity(Label = "ListViewActivity")]
     public class ListViewActivity : Activity
     {
+        private List<string> mItems;
+        private ListView mListView;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
             SetContentView(Resource.Layout.ListView);
+            mListView = FindViewById<ListView>(Resource.Id.listView1);
 
-            string[] countries = Resources.GetStringArray(Resource.Array.countries_array);
-            IListAdapter = new ArrayAdapter<string>(this, Resource.Layout.ListView, countries);
+            mItems = new List<string>();
+            mItems.Add("Bob");
+            mItems.Add("Tom");
+            mItems.Add("Jim");
+            mItems.Add("Ruben");
+            mItems.Add("Marc");
+            mItems.Add("Sergi");
+            mItems.Add("Emenejildo");
+            mItems.Add("Anacleto");
+            mItems.Add("Pepe");
+            mItems.Add("Luis");
+
+            ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mItems);
+
+            mListView.Adapter = adapter;
         }
     }
 }
