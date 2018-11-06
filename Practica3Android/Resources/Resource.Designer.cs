@@ -2645,8 +2645,8 @@ namespace Practica3Android
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800c7
-			public const int masked = 2131230919;
+			// aapt resource value: 0x7f0800c8
+			public const int masked = 2131230920;
 			
 			// aapt resource value: 0x7f0800b5
 			public const int media_actions = 2131230901;
@@ -2918,8 +2918,9 @@ namespace Practica3Android
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800c6
-			public const int visible = 2131230918;
+			// aapt resource value: 0x7f0800c7
+			public const int visible = 2131230919;
+			
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
