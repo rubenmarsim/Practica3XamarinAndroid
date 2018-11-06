@@ -21,9 +21,6 @@ namespace Practica3Android
 
             // Create your application here
             SetContentView(Resource.Layout.Button);
-
-            //var Button1 = FindViewById<Button>(Resource.Id.activity_main);
-            //Button1.Click += delegate { StartActivity(typeof(MainActivity)); };
         }
     }
 }
