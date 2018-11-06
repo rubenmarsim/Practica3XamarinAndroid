@@ -2642,14 +2642,14 @@ namespace Practica3Android
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800c6
-			public const int masked = 2131230918;
+			// aapt resource value: 0x7f0800c7
+			public const int masked = 2131230919;
 			
 			// aapt resource value: 0x7f0800b4
 			public const int media_actions = 2131230900;
 			
-			// aapt resource value: 0x7f0800c4
-			public const int message = 2131230916;
+			// aapt resource value: 0x7f0800c5
+			public const int message = 2131230917;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2801,6 +2801,9 @@ namespace Practica3Android
 			// aapt resource value: 0x7f080064
 			public const int spacer = 2131230820;
 			
+			// aapt resource value: 0x7f0800c2
+			public const int spinner1 = 2131230914;
+			
 			// aapt resource value: 0x7f080008
 			public const int split_action_bar = 2131230728;
 			
@@ -2864,8 +2867,8 @@ namespace Practica3Android
 			// aapt resource value: 0x7f0800b9
 			public const int time = 2131230905;
 			
-			// aapt resource value: 0x7f0800c2
-			public const int timePicker1 = 2131230914;
+			// aapt resource value: 0x7f0800c3
+			public const int timePicker1 = 2131230915;
 			
 			// aapt resource value: 0x7f08001c
 			public const int title = 2131230748;
@@ -2876,8 +2879,8 @@ namespace Practica3Android
 			// aapt resource value: 0x7f08006f
 			public const int title_template = 2131230831;
 			
-			// aapt resource value: 0x7f0800c3
-			public const int toggleButton1 = 2131230915;
+			// aapt resource value: 0x7f0800c4
+			public const int toggleButton1 = 2131230916;
 			
 			// aapt resource value: 0x7f08003e
 			public const int top = 2131230782;
@@ -2915,8 +2918,8 @@ namespace Practica3Android
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800c5
-			public const int visible = 2131230917;
+			// aapt resource value: 0x7f0800c6
+			public const int visible = 2131230918;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
