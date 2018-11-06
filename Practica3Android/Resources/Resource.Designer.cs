@@ -105,6 +105,22 @@ namespace Practica3Android
 			}
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int car_array = 2131623936;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -2645,8 +2661,13 @@ namespace Practica3Android
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7f0800c8
 			public const int masked = 2131230920;
+=======
+			// aapt resource value: 0x7f0800c7
+			public const int masked = 2131230919;
+>>>>>>> spinner
 			
 			// aapt resource value: 0x7f0800b5
 			public const int media_actions = 2131230901;
@@ -2804,6 +2825,9 @@ namespace Practica3Android
 			// aapt resource value: 0x7f080064
 			public const int spacer = 2131230820;
 			
+			// aapt resource value: 0x7f0800c2
+			public const int spinner1 = 2131230914;
+			
 			// aapt resource value: 0x7f080008
 			public const int split_action_bar = 2131230728;
 			
@@ -2918,11 +2942,16 @@ namespace Practica3Android
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
+<<<<<<< HEAD
 			// aapt resource value: 0x7f0800c7
 			public const int visible = 2131230919;
 			
 			// aapt resource value: 0x7f0800c6
 			public const int webView1 = 2131230918;
+=======
+			// aapt resource value: 0x7f0800c6
+			public const int visible = 2131230918;
+>>>>>>> spinner
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3341,6 +3370,9 @@ namespace Practica3Android
 			
 			// aapt resource value: 0x7f09001f
 			public const int bottom_sheet_behavior = 2131296287;
+			
+			// aapt resource value: 0x7f090029
+			public const int car_prompt = 2131296297;
 			
 			// aapt resource value: 0x7f090020
 			public const int character_counter_pattern = 2131296288;

@@ -2,4 +2,15 @@
     <string name="app_name">Practica3Android</string>
     <string name="action_settings">Settings</string>
     <!--<string name="button">Button</string>-->
+    <string name="car_prompt">Choose a Car</string>
+    <string-array name="car_array">
+      <item>Scorpio</item>
+      <item>Xylo</item>
+      <item>Innovo</item>
+      <item>Benz</item>
+      <item>BMW</item>
+      <item>Audi</item>
+      <item>Jaguar</item>
+      <item>Ferrari</item>
+    </string-array>
 </resources>
